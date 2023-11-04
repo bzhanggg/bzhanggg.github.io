@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Solidity on Brian Zhang</title>
+    <link>https://bzhanggg.github.io/langs/solidity/</link>
+    <description>Recent content in Solidity on Brian Zhang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 03 Nov 2023 22:00:00 +0000</lastBuildDate><atom:link href="https://bzhanggg.github.io/langs/solidity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bilevel Distributed Stochastic Gradient Descent (DSGT) methods to solve non-smooth and game-theoretic optimization problems</title>
+      <link>https://bzhanggg.github.io/projects/aresty-2023-2024/</link>
+      <pubDate>Fri, 03 Nov 2023 22:00:00 +0000</pubDate>
+      
+      <guid>https://bzhanggg.github.io/projects/aresty-2023-2024/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

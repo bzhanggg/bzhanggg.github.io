@@ -59,6 +59,7 @@
       "fa-linkedin",
       "fa-solid",
       "feed",
+      "feed__link",
       "fill-base-content",
       "fixed",
       "flex",
@@ -83,6 +84,7 @@
       "icon",
       "items-center",
       "justify-between",
+      "justify-start",
       "link",
       "m-auto",
       "max-w-2xl",
@@ -102,6 +104,7 @@
       "not-prose",
       "p-2",
       "p-4",
+      "pl-7",
       "place-items-start",
       "prose",
       "pt-2",
@@ -138,7 +141,6 @@
       "z-[1]"
     ],
     "ids": [
-      "abstract",
       "you-can-reach-me-at-_blz19-at-rutgers-dot-edu_"
     ]
   }
