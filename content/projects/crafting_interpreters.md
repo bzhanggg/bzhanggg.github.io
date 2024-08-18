@@ -9,4 +9,4 @@ tags = [ "compilers" ]
 Learning about basic compiler and interpreter theory by following Nystrom's *Crafting Interpreters*. Practice for diving deeper into more complex compiler topics.
 
 ---
-Github: [Java version](https://github.com/bzhanggg/jlox) | [C version](https://github.com/bzhanggg/jlox)
+Github: [Java version](https://github.com/bzhanggg/jlox) | [C version](https://github.com/bzhanggg/clox)

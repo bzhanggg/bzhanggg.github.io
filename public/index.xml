@@ -4,11 +4,18 @@
     <title>Brian Zhang</title>
     <link>https://bzhanggg.github.io/</link>
     <description>Recent content on Brian Zhang</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>© [Brian Zhang](https://bzhanggg.github.io)</copyright>
-    <lastBuildDate>Mon, 29 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://bzhanggg.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Crafting Interpreters: the Lox language interpreter</title>
+      <link>https://bzhanggg.github.io/projects/crafting_interpreters/</link>
+      <pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://bzhanggg.github.io/projects/crafting_interpreters/</guid>
+      <description>Learning about basic compiler and interpreter theory by following Nystrom&amp;rsquo;s Crafting Interpreters. Practice for diving deeper into more complex compiler topics.&#xA;Github: Java version | C version</description>
+    </item>
     <item>
       <title>Decentralized Optimization for Machine Learning: Distributed Stochastic Gradient Tracking</title>
       <link>https://bzhanggg.github.io/projects/convex_opt_dsgt/</link>
@@ -28,14 +35,14 @@
       <link>https://bzhanggg.github.io/pubs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://bzhanggg.github.io/pubs/</guid>
-      <description>Currently empty, but won&amp;rsquo;t be for long 😁</description>
+      <description>Paper in progress (title TBD) IEEE Transactions on Control of Network Systems</description>
     </item>
     <item>
       <title>Research</title>
       <link>https://bzhanggg.github.io/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://bzhanggg.github.io/research/</guid>
-      <description>Decentralized optimization for learning over networks We are working on using an iterated regularization parameter for the Distributed Stochastic Gradient Tracking (DSGT) algorithm to reduce the cost of hyperparameter tuning during training of distributed models. We introduce the Iterated-Regularized IR-DSGT algorithm, which acts as a heuristic for the optimal constant regularizer during training. We find that IR-DSGT retains the same convergence rate, up to a constant, as a centralized SGD algorithm.</description>
+      <description>A parallelizing compiler for high-speed network packet processing Advisor: Dr. Srinivas Narayana Ganapathy, Rutgers University&#xA;We explore techniques to parallelize packet-processing code across multiple CPU cores, and building compilers to automatically translate single-core code to run efficiently on multi-core CPUs. I use eBPF for packet processing and clang as the compiler frontend.&#xA;Decentralized optimization for learning over networks Advisor: Dr. Farzad Yousefian, Rutgers University&#xA;We propose a modification of the Distributed Stochastic Gradient Tracking (DSGT) algorithm to reduce the cost of hyperparameter tuning during training of distributed models.</description>
     </item>
   </channel>
 </rss>

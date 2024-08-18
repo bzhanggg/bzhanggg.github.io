@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>optimization on Brian Zhang</title>
+    <title>Optimization on Brian Zhang</title>
     <link>https://bzhanggg.github.io/tags/optimization/</link>
-    <description>Recent content in optimization on Brian Zhang</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Optimization on Brian Zhang</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>© [Brian Zhang](https://bzhanggg.github.io)</copyright>
     <lastBuildDate>Mon, 29 Apr 2024 00:00:00 +0000</lastBuildDate>
