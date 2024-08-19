@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Brian Zhang</title>
-    <link>https://bzhanggg.github.io/projects/</link>
+    <link>http://localhost:1313/projects/</link>
     <description>Recent content in Projects on Brian Zhang</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© [Brian Zhang](https://bzhanggg.github.io)</copyright>
     <lastBuildDate>Sat, 11 May 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://bzhanggg.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Crafting Interpreters: the Lox language interpreter</title>
-      <link>https://bzhanggg.github.io/projects/crafting_interpreters/</link>
+      <link>http://localhost:1313/projects/crafting_interpreters/</link>
       <pubDate>Sat, 11 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://bzhanggg.github.io/projects/crafting_interpreters/</guid>
+      <guid>http://localhost:1313/projects/crafting_interpreters/</guid>
       <description>Learning about basic compiler and interpreter theory by following Nystrom&amp;rsquo;s Crafting Interpreters. Practice for diving deeper into more complex compiler topics.&#xA;Github: Java version | C version</description>
     </item>
     <item>
       <title>Decentralized Optimization for Machine Learning: Distributed Stochastic Gradient Tracking</title>
-      <link>https://bzhanggg.github.io/projects/convex_opt_dsgt/</link>
+      <link>http://localhost:1313/projects/convex_opt_dsgt/</link>
       <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://bzhanggg.github.io/projects/convex_opt_dsgt/</guid>
+      <guid>http://localhost:1313/projects/convex_opt_dsgt/</guid>
       <description>Applying machine learning to massively distributed networks, such as sensor or drone arrays, has gained much traction in recent years. Due to the decentralized nature of these agents, it is necessary to develop algorithms that can operate efficiently across massively distributed environments. There are many unique challenges that distributed optimization faces, such as data heterogeneity, privacy, and network robustness. This project explores two contemporary solutions to addressing the problems of distributed optimization, called Federated Averaging (FedAVG) and Distributed Stochastic Gradient Tracking (DSGT).</description>
     </item>
     <item>
       <title>MOS 6502 CPU emulator</title>
-      <link>https://bzhanggg.github.io/projects/cpu_emulator/</link>
+      <link>http://localhost:1313/projects/cpu_emulator/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://bzhanggg.github.io/projects/cpu_emulator/</guid>
+      <guid>http://localhost:1313/projects/cpu_emulator/</guid>
       <description>A basic CPU emulation project I made to refresh my architecture knowledge. The emulator mimics the CPU down to the register level. I aim to have 100% coverage of all legal opcodes, read/write bus callback, and opcode selection via jump table.&#xA;Followed the amazing guide by @javidx9 | Github</description>
     </item>
   </channel>

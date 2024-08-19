@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Architecture on Brian Zhang</title>
-    <link>https://bzhanggg.github.io/tags/architecture/</link>
+    <link>http://localhost:1313/tags/architecture/</link>
     <description>Recent content in Architecture on Brian Zhang</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© [Brian Zhang](https://bzhanggg.github.io)</copyright>
     <lastBuildDate>Fri, 01 Sep 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://bzhanggg.github.io/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MOS 6502 CPU emulator</title>
-      <link>https://bzhanggg.github.io/projects/cpu_emulator/</link>
+      <link>http://localhost:1313/projects/cpu_emulator/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://bzhanggg.github.io/projects/cpu_emulator/</guid>
+      <guid>http://localhost:1313/projects/cpu_emulator/</guid>
       <description>A basic CPU emulation project I made to refresh my architecture knowledge. The emulator mimics the CPU down to the register level. I aim to have 100% coverage of all legal opcodes, read/write bus callback, and opcode selection via jump table.&#xA;Followed the amazing guide by @javidx9 | Github</description>
     </item>
   </channel>
