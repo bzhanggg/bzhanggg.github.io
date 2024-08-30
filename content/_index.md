@@ -1,9 +1,11 @@
 # About me
 
 \
-I am a student at Rutgers University studying mathematics and computer science. I'm a research assistant at the [Mathematical Optimization Research Group](https://sites.rutgers.edu/farzad-yousefian/), advised by Dr. Farzad Yousefian, working on distributed optimization frameworks for decentralized machine learning.
+I am a student at Rutgers University studying mathematics and computer science. I'm currently a research assistant in the Rutgers Department of Computer Science, advised by [Dr. Srinivas Narayana](https://people.cs.rutgers.edu/~sn624/), exploring compiler optimizations for parallelized network packet processing in the Linux kernel using eBPF.
 
-I'm excited to continue my research in optimization and machine learning. I'm also interested in learning more about compilers, formal verification, and parallelization.
+Previously, I was a research assistant under [Dr. Farzad Yousefian](https://sites.rutgers.edu/farzad-yousefian/), where I worked on distributed optimization frameworks for decentralized ML and game theory problems.
+
+I'm excited to continue learning more about compilers, formal verification, and parallelization.
 
 Here is my [CV](/bzhang_cv.pdf) and [Google Scholar](https://scholar.google.com/). You can reach me at `brian.l.zhang@rutgers.edu`
 

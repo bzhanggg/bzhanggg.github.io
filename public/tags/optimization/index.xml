@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Optimization on Brian Zhang</title>
-    <link>http://localhost:1313/tags/optimization/</link>
+    <link>https://bzhanggg.github.io/tags/optimization/</link>
     <description>Recent content in Optimization on Brian Zhang</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>© [Brian Zhang](https://bzhanggg.github.io)</copyright>
     <lastBuildDate>Mon, 29 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bzhanggg.github.io/tags/optimization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Decentralized Optimization for Machine Learning: Distributed Stochastic Gradient Tracking</title>
-      <link>http://localhost:1313/projects/convex_opt_dsgt/</link>
+      <link>https://bzhanggg.github.io/projects/convex_opt_dsgt/</link>
       <pubDate>Mon, 29 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/convex_opt_dsgt/</guid>
+      <guid>https://bzhanggg.github.io/projects/convex_opt_dsgt/</guid>
       <description>Applying machine learning to massively distributed networks, such as sensor or drone arrays, has gained much traction in recent years. Due to the decentralized nature of these agents, it is necessary to develop algorithms that can operate efficiently across massively distributed environments. There are many unique challenges that distributed optimization faces, such as data heterogeneity, privacy, and network robustness. This project explores two contemporary solutions to addressing the problems of distributed optimization, called Federated Averaging (FedAVG) and Distributed Stochastic Gradient Tracking (DSGT).</description>
     </item>
   </channel>

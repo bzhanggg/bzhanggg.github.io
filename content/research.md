@@ -7,7 +7,7 @@ description = "machine learning, optimization, & compilers"
 
 Advisor: Dr. Srinivas Narayana Ganapathy, Rutgers University
 
-We explore techniques to parallelize packet-processing code across multiple CPU cores, and building compilers to automatically translate single-core code to run efficiently on multi-core CPUs. I use eBPF for packet processing and clang as the compiler frontend.
+We explore techniques to parallelize packet processing code across multiple CPU cores, and building compilers to automatically translate single-core code to run efficiently on multi-core CPUs. We use eBPF for packet processing and clang as the compiler frontend.
 
 ## Decentralized optimization for learning over networks
 
