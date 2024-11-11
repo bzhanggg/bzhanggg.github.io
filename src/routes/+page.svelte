@@ -1,0 +1,87 @@
+<!-- routes/+page.svelte -->
+<script lang="ts">
+  import { fade } from "svelte/transition";
+
+  let showIcons = false;
+
+  function toggleIcons() {
+    showIcons = !showIcons;
+  }
+</script>
+
+
+<div class="content">
+  <h1>brian zhang ∴</h1>  
+  <p>
+    Software engineer based in New York, NY.
+  </p>
+
+  <p>
+    I am a graduating senior at <a href="https://math.rutgers.edu/">Rutgers University</a> studying Mathematics and Computer Science.
+    I will be joining <a href="https://www.bloomberg.com/company/">Bloomberg</a> as an entry-level SWE in June 2025.
+  </p>
+
+  <p>
+    Previously, I interned at <a href="https://www.amazon.jobs/content/en/our-workplace/working-at-amazon">Amazon</a>, on the financial risk mitigation and remediation of bad orders teams.
+  </p>
+
+  <p>
+    Take a look at some recent work and <button class="get-in-touch" on:click={toggleIcons}>get in touch</button>.
+  </p>
+
+  {#if showIcons}
+  <div class="social-icons" transition:fade={{ duration: 300 }}>
+    <a href="https://www.linkedin.com/in/bzhangg/" target="_blank" rel="noopener">
+      <img src="/linkedin.svg" alt="linkedin" width="24" height="24">
+    </a>
+    <a href="https://github.com/bzhanggg" target="_blank" rel="noopener">
+      <img src="/github.svg" alt="linkedin" width="24" height="24">
+    </a>
+    <a href="https://www.instagram.com/bzhangg/" target="_blank" rel="noopener">
+      <img src="/instagram.svg" alt="linkedin" width="24" height="24">
+    </a>
+  </div>
+  {/if}
+
+</div>
+
+
+<style>
+  .content {
+    margin: 1.5rem;  /* m-6 */
+    margin-top: 100px;  /* mt-[100px] */
+    font-weight: 380;
+  }
+
+  .social-icons {
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .social-icons img {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+  }
+
+  .social-icons img:hover {
+    opacity: 1;
+  }
+
+  @media (min-width: 768px) {  /* md breakpoint */
+    .content {
+      max-width: 420px;
+      margin: 5rem;  /* m-20 */
+    }
+  }
+
+  @media (min-width: 1024px) {  /* lg breakpoint */
+    .content {
+      margin-top: 180px;
+    }
+  }
+</style>
