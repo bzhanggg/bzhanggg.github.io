@@ -15,10 +15,10 @@ const config = {
     prerender: {
       entries: [
         '*',
-        //'/projects',
-        //'/about',
-        //'/contact'
       ]
+    },
+    paths: {
+      base: process.env.NODE_ENV === "production" ? "/bzhanggg.github.io" : ""
     }
   },
   preprocess: vitePreprocess()

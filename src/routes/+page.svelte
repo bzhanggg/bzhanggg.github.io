@@ -1,5 +1,6 @@
 <!-- routes/+page.svelte -->
 <script lang="ts">
+  import { base } from "$app/paths";
   import { fade } from "svelte/transition";
 
   let showIcons = false;
