@@ -12,7 +12,9 @@
 
 
 <div class="content">
-  <h1>brian zhang ∴</h1>  
+  <div class="title">
+    <h1>brian zhang  ∴</h1><img src="/logo.svg" class="logo" alt="logo"/>
+  </div>
   <p>
     Software engineer based in New York, NY.
   </p>
@@ -52,6 +54,20 @@
     margin: 1.5rem;  /* m-6 */
     margin-top: 100px;  /* mt-[100px] */
     font-weight: 380;
+  }
+  
+  .title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .logo {
+    position: relative;
+    top: -0.75em;
+    width: 1em;
+    height: 1em;
+    display: block;
   }
 
   .social-icons {
