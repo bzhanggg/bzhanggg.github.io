@@ -13,9 +13,15 @@ const config = {
       strict: true
     }),
     prerender: {
-      entries: [
-        '*',
-      ]
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      handleHttpError: ({ path, referrer, message }) => {
+        if (path === '/favicon.ico') {
+          return;
+        }
+        // otherwise fail the build
+        throw new Error(message);
+      },
+      entries: ['*'],
     },
     paths: {
       base: process.env.NODE_ENV === "production" ? "/bzhanggg.github.io" : ""

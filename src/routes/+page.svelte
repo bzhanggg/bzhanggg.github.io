@@ -13,7 +13,7 @@
 
 <div class="content">
   <div class="title">
-    <h1>brian zhang  ∴</h1><img src="/logo.svg" class="logo" alt="logo"/>
+    <h1>brian zhang  ∴</h1><img src="{base}/logo.svg" class="logo" alt="logo"/>
   </div>
   <p>
     Software engineer based in New York, NY.
@@ -25,11 +25,11 @@
   </p>
 
   <p>
-    Previously, I interned at <a href="https://www.amazon.jobs/content/en/our-workplace/working-at-amazon">Amazon</a>, on the financial risk mitigation and remediation of bad orders teams.
+    I previously interned at <a href="https://www.amazon.jobs/content/en/our-workplace/working-at-amazon">Amazon</a> with the financial risk mitigation and remediation of bad orders teams.
   </p>
 
   <p>
-    Take a look at some recent work and <button class="get-in-touch" on:click={toggleIcons}>get in touch</button>.
+    Take a look at some of my recent <a class="superlink" href="{base}/projects/">work</a> and feel free to <button class="get-in-touch" on:click={toggleIcons}>get in touch</button>.
   </p>
 
   {#if showIcons}
@@ -50,24 +50,9 @@
 
 
 <style>
-  .content {
-    margin: 1.5rem;  /* m-6 */
-    margin-top: 100px;  /* mt-[100px] */
-    font-weight: 380;
-  }
-  
-  .title {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-  }
-
-  .logo {
-    position: relative;
-    top: -0.75em;
-    width: 1em;
-    height: 1em;
-    display: block;
+  .superlink {
+    @apply text-neutral-800 bg-green-50 hover:bg-green-100 
+    no-underline transition-colors px-1 rounded;
   }
 
   .social-icons {

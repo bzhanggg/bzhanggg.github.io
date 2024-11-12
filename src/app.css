@@ -32,3 +32,25 @@
     hover:text-neutral-400 hover:decoration-neutral-400 transition-colors;
   }
 }
+
+@layer component {
+  .title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .content {
+    margin: 1.5rem;  /* m-6 */
+    margin-top: 100px;  /* mt-[100px] */
+    font-weight: 380;
+  }
+
+  .logo {
+    position: relative;
+    top: -0.75em;
+    width: 1em;
+    height: 1em;
+    display: block;
+  }
+}
