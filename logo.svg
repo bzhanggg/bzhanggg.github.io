@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Square with shadow -->
+  <g>
+    <!-- Main square -->
+    <rect x="0" y="0" width="50" height="50" fill="#124834"/>
+    <!-- Shadow -->
+    <path d="M 0 50 L 50 50 L 100 100 L 50 100 Z" fill="black"/>
+  </g>
+</svg>
