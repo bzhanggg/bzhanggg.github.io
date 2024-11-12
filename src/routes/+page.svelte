@@ -21,7 +21,7 @@
 
   <p>
     I am a graduating senior at <a href="https://math.rutgers.edu/">Rutgers University</a> studying Mathematics and Computer Science.
-    I will be joining <a href="https://www.bloomberg.com/company/">Bloomberg</a> as an entry-level SWE in June 2025.
+    I will be joining <a href="https://www.bloomberg.com/company/">Bloomberg LP</a> as an software engineer in June 2025.
   </p>
 
   <p>
