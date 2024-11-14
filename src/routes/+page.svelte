@@ -20,27 +20,27 @@
   </p>
 
   <p>
-    I am a graduating senior at <a href="https://math.rutgers.edu/">Rutgers University</a> studying Mathematics and Computer Science.
-    I will be joining <a href="https://www.bloomberg.com/company/">Bloomberg LP</a> as a software engineer in June 2025.
+    I am a graduating senior at <a class="link" href="https://math.rutgers.edu/">Rutgers University</a> studying Mathematics and Computer Science.
+    I will be joining <a class="link" href="https://www.bloomberg.com/company/">Bloomberg LP</a> as a software engineer in June 2025.
   </p>
 
   <p>
-    I previously interned at <a href="https://www.amazon.jobs/content/en/our-workplace/working-at-amazon">Amazon</a> with the financial risk mitigation and remediation of bad orders teams.
+    I previously interned at <a class="link" href="https://www.amazon.jobs/content/en/our-workplace/working-at-amazon">Amazon</a> with the financial risk mitigation and remediation of bad orders teams.
   </p>
 
   <p>
-    Take a look at some of my recent <a class="superlink" href="{base}/projects/">work</a> and feel free to <button class="get-in-touch" on:click={toggleIcons}>get in touch</button>.
+    Take a look at some of my recent <a class="superlink" href="{base}/projects/">work</a> and feel free to <button class="link" on:click={toggleIcons}>get in touch</button>.
   </p>
 
   {#if showIcons}
   <div class="social-icons" transition:fade={{ duration: 300 }}>
-    <a href="https://www.linkedin.com/in/bzhangg/" target="_blank" rel="noopener">
+    <a class="link" href="https://www.linkedin.com/in/bzhangg/" target="_blank" rel="noopener">
       <img src="/linkedin.svg" alt="linkedin" width="24" height="24">
     </a>
-    <a href="https://github.com/bzhanggg" target="_blank" rel="noopener">
+    <a class="link" href="https://github.com/bzhanggg" target="_blank" rel="noopener">
       <img src="/github.svg" alt="linkedin" width="24" height="24">
     </a>
-    <a href="https://www.instagram.com/bzhangg/" target="_blank" rel="noopener">
+    <a class="link" href="https://www.instagram.com/bzhangg/" target="_blank" rel="noopener">
       <img src="/instagram.svg" alt="linkedin" width="24" height="24">
     </a>
   </div>

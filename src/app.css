@@ -27,13 +27,21 @@
     margin-bottom: 1rem;  /* mb-8 */
   }
 
-  a, button {
-    @apply text-neutral-800 underline decoration-neutral-200 decoration-2 
-    hover:text-neutral-400 hover:decoration-neutral-400 transition-colors;
+  .link {
+    color: text-neutral-800;
+    text-decoration: underline;
+    text-underline-offset: decoration-2;
+    text-decoration-color: decoration-neutral-200;
+    transition: color 0.2s ease, text-decoration-color 0.2s ease;
+  }
+  
+  .link:hover {
+    color: text-neutral-400;
+    text-decoration-color: decoration-neutral-400;
   }
 }
 
-@layer component {
+@layer components {
   .title {
     display: flex;
     align-items: center;
