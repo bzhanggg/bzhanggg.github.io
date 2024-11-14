@@ -23,11 +23,13 @@
 		display: flex;
 		justify-content: flex-start;
 		padding-left: 10%;
+		padding-right: 10%;
 	}
 
 	@media (min-width: 768px) {
 		main {
 			padding-left: 20%;
+			padding-right:20%;
 		}
 	}
 

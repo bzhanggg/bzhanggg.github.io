@@ -21,7 +21,7 @@
 
   <p>
     I am a graduating senior at <a href="https://math.rutgers.edu/">Rutgers University</a> studying Mathematics and Computer Science.
-    I will be joining <a href="https://www.bloomberg.com/company/">Bloomberg LP</a> as an software engineer in June 2025.
+    I will be joining <a href="https://www.bloomberg.com/company/">Bloomberg LP</a> as a software engineer in June 2025.
   </p>
 
   <p>
@@ -51,7 +51,7 @@
 
 <style>
   .superlink {
-    @apply text-neutral-800 bg-green-50 hover:bg-green-100 
+    @apply text-neutral-800 bg-blue-50 hover:bg-blue-100 
     no-underline transition-colors px-1 rounded;
   }
 
@@ -74,16 +74,4 @@
     opacity: 1;
   }
 
-  @media (min-width: 768px) {  /* md breakpoint */
-    .content {
-      max-width: 420px;
-      margin: 5rem;  /* m-20 */
-    }
-  }
-
-  @media (min-width: 1024px) {  /* lg breakpoint */
-    .content {
-      margin-top: 180px;
-    }
-  }
 </style>

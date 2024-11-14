@@ -41,9 +41,22 @@
   }
 
   .content {
-    margin: 1.5rem;  /* m-6 */
+    margin: 2rem;  /* m-6 */
     margin-top: 100px;  /* mt-[100px] */
     font-weight: 380;
+  }
+
+  @media (min-width: 768px) {  /* md breakpoint */
+    .content {
+      max-width: 420px;
+      margin: 5rem;  /* m-20 */
+    }
+  }
+
+  @media (min-width: 1024px) {  /* lg breakpoint */
+    .content {
+      margin-top: 180px;
+    }
   }
 
   .logo {
