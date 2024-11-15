@@ -32,11 +32,15 @@
   }
 
   .project-item {
-    @apply flex gap-4 p-4 -m-4 pt-4 rounded-lg border-none transition-colors;
+    @apply flex rounded-lg border-none transition-colors items-center;
   }
 
   .project-text {
-    @apply flex flex-col text-sm border-b border-neutral-100 flex-auto pb-4 text-neutral-700 transition-colors;
+    @apply flex flex-col flex-auto justify-center;
+    @apply pt-2 pb-0;
+    @apply px-4;
+    @apply border-b border-neutral-100;
+    @apply text-sm text-neutral-700 transition-colors;
   }
 
   .project-item:hover {
