@@ -12,13 +12,13 @@
     A short list of some of my recent work.
   </p>
 
-  <a class="project-item" href="/">
+  <a class="project-item" href="https://github.com/bzhanggg/smartnic-rewriter">
     <div class="project-text">
       <h3>SmartNIC Rewriter</h3>
       <p>Compiler optimizations for state-compute replication networking</p>
     </div>
   </a>
-  <a class="project-item" href="/">
+  <a class="project-item" href="https://github.com/bzhanggg/smartnic-rewriter">
     <div class="project-text">
       <h3>Project 2</h3>
       <p>Description</p>
