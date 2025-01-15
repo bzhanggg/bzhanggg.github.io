@@ -20,7 +20,7 @@
 	<a class="project-item" href="https://github.com/bzhanggg/jlox">
 		<div class="project-text">
 			<h3>The Lox Programming Language</h3>
-			<p>Following the tutorial from nystrom's crafting interpreters</p>
+			<p>Following the tutorial from Robert Nystrom's Crafting Interpreters</p>
 		</div>
 	</a>
 	<a class="project-item" href="https://github.com/bzhanggg">
