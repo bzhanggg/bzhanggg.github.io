@@ -20,7 +20,13 @@
 	<a class="project-item" href="https://github.com/bzhanggg/jlox">
 		<div class="project-text">
 			<h3>The Lox Programming Language</h3>
-			<p>Following the tutorial from Robert Nystrom's Crafting Interpreters</p>
+			<p>A simple tree-walk interpreter for the toy Lox language, following Robert Nystrom's Crafting Interpreters</p>
+		</div>
+	</a>
+  <a class="project-item" href="https://github.com/bzhanggg/jlox">
+		<div class="project-text">
+			<h3>MicroCaml Type Inference</h3>
+			<p>A type inferencer for MicroCaml, a subset of the OCaml programming language. Written in OCaml, soon to be rewritten in Rust</p>
 		</div>
 	</a>
 	<a class="project-item" href="https://github.com/bzhanggg">
