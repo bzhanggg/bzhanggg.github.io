@@ -55,7 +55,7 @@
 
 <style>
 	.superlink {
-		@apply rounded bg-emerald-100 px-1 text-neutral-800 no-underline transition-colors hover:bg-emerald-300;
+		@apply rounded bg-emerald-50 px-1 text-neutral-800 no-underline transition-colors hover:bg-emerald-200;
 	}
 
 	.social-icons {

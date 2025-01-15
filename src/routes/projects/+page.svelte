@@ -55,7 +55,7 @@
 	}
 
 	.project-item:hover {
-		@apply bg-emerald-100;
+		@apply bg-emerald-50;
 	}
 
 	.project-item:hover .project-text {
