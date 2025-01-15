@@ -55,7 +55,7 @@
 
 <style>
 	.superlink {
-		@apply rounded bg-blue-50 px-1 text-neutral-800 no-underline transition-colors hover:bg-blue-100;
+		@apply rounded bg-emerald-100 px-1 text-neutral-800 no-underline transition-colors hover:bg-emerald-300;
 	}
 
 	.social-icons {
