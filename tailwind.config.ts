@@ -8,16 +8,16 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				grotesk: ['"Host Grotesk"', 'sans-serif'],
+				grotesk: ['"Host Grotesk"', 'sans-serif']
 			},
 			fontWeight: {
 				'extra-bold': '800',
-				normal: '400',
+				normal: '400'
 			},
 			fontSize: {
-				base: ['1.125rem', '1.75rem'],
+				base: ['1.125rem', '1.75rem']
 			}
-		},
+		}
 	},
 
 	plugins: [typography, aspectRatio]

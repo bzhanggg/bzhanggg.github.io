@@ -1,24 +1,23 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { writable } from 'svelte/store';
-  import '../app.css';
+	import '../app.css';
 
-  let { children } = $props();
-  const showContent = writable(false);
+	let { children } = $props();
+	const showContent = writable(false);
 
-  onMount(() => {
-    setTimeout(() => {
+	onMount(() => {
+		setTimeout(() => {
 			$showContent = true;
-    }, 1000);
-  });
+		}, 1000);
+	});
 </script>
-  
+
 <main>
 	{@render children()}
 </main>
 
 <style>
-	
 	main {
 		display: flex;
 		justify-content: flex-start;
@@ -29,9 +28,7 @@
 	@media (min-width: 768px) {
 		main {
 			padding-left: 20%;
-			padding-right:20%;
+			padding-right: 20%;
 		}
 	}
-
 </style>
-
