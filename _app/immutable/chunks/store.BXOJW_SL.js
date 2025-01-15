@@ -1,0 +1,1 @@
+import{t as n,d as o}from"./runtime.DTjnLWI5.js";let t=!1,i=Symbol();function f(e,r){return e.set(r),r}function _(){const e={};function r(){n(()=>{for(var s in e)e[s].unsubscribe();o(e,i,{enumerable:!1,value:!0})})}return[e,r]}function c(e){var r=t;try{return t=!1,[e(),t]}finally{t=r}}export{f as a,c,_ as s};
