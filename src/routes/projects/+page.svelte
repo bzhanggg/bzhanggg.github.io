@@ -23,7 +23,7 @@
 			<p>A simple tree-walk interpreter for the toy Lox language, following Robert Nystrom's Crafting Interpreters</p>
 		</div>
 	</a>
-  <a class="project-item" href="https://github.com/bzhanggg/jlox">
+  <a class="project-item" href="https://github.com/bzhanggg/cs515_project1">
 		<div class="project-text">
 			<h3>MicroCaml Type Inference</h3>
 			<p>A type inferencer for MicroCaml, a subset of the OCaml programming language. Written in OCaml, soon to be rewritten in Rust</p>
