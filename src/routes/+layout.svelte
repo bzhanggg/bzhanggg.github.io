@@ -1,10 +1,16 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { writable } from 'svelte/store';
+	import { goto } from '$app/navigation'
 	import '../app.css';
 
 	let { children } = $props();
 	const showContent = writable(false);
+
+	function handleClick(event: MouseEvent & { currentTarget: HTMLAnchorElement }) {
+		event.preventDefault();
+		goto(event.currentTarget.href, {replaceState: false });
+	}
 
 	onMount(() => {
 		setTimeout(() => {

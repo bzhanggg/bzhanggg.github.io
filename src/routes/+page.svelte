@@ -1,9 +1,12 @@
 <!-- routes/+page.svelte -->
 <script lang="ts">
 	import { base } from '$app/paths';
+	import { getContext } from 'svelte';
 	import { fade } from 'svelte/transition';
 
 	let showIcons = false;
+
+	const handleClick = getContext('handleClick');
 
 	function toggleIcons() {
 		showIcons = !showIcons;
@@ -34,7 +37,7 @@
 	</p>
 
 	<p>
-		Take a look at some of my recent <a class="superlink" href="{base}/projects/">work</a> and feel
+		Take a look at some of my recent <a class="superlink" on:click={() => handleClick} href="{base}/projects/">work</a> and feel
 		free to <button class="link" on:click={toggleIcons}>get in touch</button>.
 	</p>
 
