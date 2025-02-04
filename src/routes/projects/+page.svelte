@@ -1,14 +1,19 @@
 <!-- routes/projects/+page.svelte -->
 <script lang="ts">
 	import { base } from '$app/paths';
+	import { getContext } from 'svelte';
 	import '../../app.css';
+
+	const handleClick = getContext('handleClick');
 </script>
 
 <div class="content">
-	<div class="title">
-		<h1>projects ∴</h1>
-		<img src="{base}/logo.svg" class="logo" alt="logo" />
-	</div>
+	<a on:click={() => handleClick} href="{base}/">
+		<div class="title">
+				<h1>projects ∴</h1>
+				<img src="{base}/logo.svg" class="logo" alt="logo" />
+		</div>
+	</a>
 	<p class="leading-text">A short list of some of my recent work.</p>
 
 	<a class="project-item" href="https://github.com/bzhanggg/smartnic-rewriter">

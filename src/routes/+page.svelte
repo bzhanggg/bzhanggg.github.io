@@ -14,10 +14,12 @@
 </script>
 
 <div class="content">
-	<div class="title">
-		<h1>brian zhang ∴</h1>
-		<img src="{base}/logo.svg" class="logo" alt="logo" />
-	</div>
+	<a on:click={() => handleClick} href="{base}/">
+		<div class="title">
+				<h1>brian zhang ∴</h1>
+			<img src="{base}/logo.svg" class="logo" alt="logo" />
+		</div>
+	</a>
 	<p>Software engineer based in New York, NY.</p>
 
 	<p>

@@ -7,7 +7,7 @@
 	let { children } = $props();
 	const showContent = writable(false);
 
-	function handleClick(event: MouseEvent & { currentTarget: HTMLAnchorElement }) {
+	export function handleClick(event: MouseEvent & { currentTarget: HTMLAnchorElement }) {
 		event.preventDefault();
 		goto(event.currentTarget.href, {replaceState: false });
 	}
