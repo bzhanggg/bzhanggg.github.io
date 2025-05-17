@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import { writable } from 'svelte/store';
-	import { goto } from '$app/navigation'
+	import { goto } from '$app/navigation';
 	import '../app.css';
 
 	let { children } = $props();
@@ -9,7 +9,7 @@
 
 	export function handleClick(event: MouseEvent & { currentTarget: HTMLAnchorElement }) {
 		event.preventDefault();
-		goto(event.currentTarget.href, {replaceState: false });
+		goto(event.currentTarget.href, { replaceState: false });
 	}
 
 	onMount(() => {

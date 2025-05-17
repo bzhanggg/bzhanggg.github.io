@@ -16,19 +16,17 @@
 <div class="content">
 	<a on:click={() => handleClick} href="{base}/">
 		<div class="title">
-				<h1>brian zhang ∴</h1>
+			<h1>brian zhang ∴</h1>
 			<img src="{base}/logo.svg" class="logo" alt="logo" />
 		</div>
 	</a>
 	<p>Software engineer based in New York, NY.</p>
 
 	<p>
-		I am a graduating senior at <a class="link" href="https://math.rutgers.edu/"
-			>Rutgers University</a
-		>
-		studying Mathematics and Computer Science. I will be joining
-		<a class="link" href="https://www.bloomberg.com/company/">Bloomberg LP</a> as a software engineer
-		in June 2025.
+		I am an engineer at <a class="link" href="https://www.bloomberg.com/company/">Bloomberg LP</a>.
+		I recently graduated from
+		<a class="link" href="https://math.rutgers.edu/">Rutgers University</a>, where I studied
+		Mathematics and Computer Science.
 	</p>
 
 	<p>
@@ -39,8 +37,12 @@
 	</p>
 
 	<p>
-		Take a look at some of my recent <a class="superlink" on:click={() => handleClick} href="{base}/projects/">work</a> and feel
-		free to <button class="link" on:click={toggleIcons}>get in touch</button>.
+		Take a look at some of my recent <a
+			class="superlink"
+			on:click={() => handleClick}
+			href="{base}/projects/">work</a
+		>
+		and feel free to <button class="link" on:click={toggleIcons}>get in touch</button>.
 	</p>
 
 	{#if showIcons}

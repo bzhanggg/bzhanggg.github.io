@@ -10,25 +10,31 @@
 <div class="content">
 	<a on:click={() => handleClick} href="{base}/">
 		<div class="title">
-				<h1>projects ∴</h1>
-				<img src="{base}/logo.svg" class="logo" alt="logo" />
+			<h1>projects ∴</h1>
+			<img src="{base}/logo.svg" class="logo" alt="logo" />
 		</div>
 	</a>
 	<p class="leading-text">A short list of some of my recent work.</p>
 
-	<a class="project-item" href="https://github.com/bzhanggg/smartnic-rewriter">
+	<a class="project-item" href="https://github.com/smartnic/packet-mlir">
 		<div class="project-text">
 			<h3>Parpack (Parallel Packet Processing Language)</h3>
-			<p>A domain specific language to enable programmers to write safe, parallel packet processing code</p>
+			<p>
+				A domain specific language to enable programmers to write safe, parallel packet processing
+				code
+			</p>
 		</div>
 	</a>
 	<a class="project-item" href="https://github.com/bzhanggg/jlox">
 		<div class="project-text">
 			<h3>The Lox Programming Language</h3>
-			<p>A simple tree-walk interpreter for the toy Lox language, following Robert Nystrom's Crafting Interpreters</p>
+			<p>
+				A simple tree-walk interpreter for the toy Lox language, following Robert Nystrom's Crafting
+				Interpreters
+			</p>
 		</div>
 	</a>
-  <a class="project-item" href="https://github.com/bzhanggg/cs515_project1">
+	<a class="project-item" href="https://github.com/bzhanggg/cs515_project1">
 		<div class="project-text">
 			<h3>MicroCaml Type Inference</h3>
 			<p>A type inferencer for MicroCaml, a subset of the OCaml programming language.</p>
