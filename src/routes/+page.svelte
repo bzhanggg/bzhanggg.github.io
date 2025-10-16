@@ -23,7 +23,9 @@
 	<p>Software engineer based in New York, NY.</p>
 
 	<p>
-		I am an engineer at <a class="link" href="https://www.bloomberg.com/company/">Bloomberg LP</a>.
+		I am an engineer at Bloomberg's
+		<a class="link" href="https://www.bloomberg.com/company/stories/meet-the-team-futures-options-engineering/">
+			Futures and Options</a> data services team.
 		I recently graduated from
 		<a class="link" href="https://math.rutgers.edu/">Rutgers University</a>, where I studied
 		Mathematics and Computer Science.

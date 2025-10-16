@@ -16,9 +16,9 @@
 	</a>
 	<p class="leading-text">A short list of some of my recent work.</p>
 
-	<a class="project-item" href="https://github.com/smartnic/packet-mlir">
+	<a class="project-item" href="https://github.com/bzhanggg/mlir-netopt">
 		<div class="project-text">
-			<h3>Parpack (Parallel Packet Processing Language)</h3>
+			<h3>MLIR NetOpt</h3>
 			<p>
 				A domain specific language to enable programmers to write safe, parallel packet processing
 				code
